@@ -50,3 +50,10 @@ void Vector::set_Z(double z1)
 {
 	z = z1;
 }
+
+void Vector::clear()
+{
+	x = 0;
+	y = 0;
+	z = 0;
+}
