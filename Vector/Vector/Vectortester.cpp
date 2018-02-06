@@ -9,9 +9,21 @@ int main()
 	cout << "Lab 4" << endl;
 	
 	Vector a;
-	cout << a;
+	cout << "a:" << a << endl;
 	a++;
-	cout << a;
+	cout << "a:" << a << endl;
+	Vector b;
+	cout << "b:" << b << endl;
+	b = a;
+	
+
+
+
+	cout << "b:" << b << endl;
+
+
+	
+
 
 	cout << endl;
 	system("pause");

@@ -92,6 +92,12 @@ Vector Vector::operator--(int)
 	return tmp;
 }
 
+Vector & Vector::operator=(Vector other)
+{
+	swap(*this, other);
+	return *this;
+}
+
 ostream & operator<<(ostream &out, const Vector &v)
 {
 	out << "x:" << v.get_X() << " y:" << v.get_Y() << " z:" << v.get_Z();

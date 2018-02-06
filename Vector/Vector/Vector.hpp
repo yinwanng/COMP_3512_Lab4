@@ -23,7 +23,7 @@ public:
 	Vector operator--(int); //postfix decrement
 
 	friend void swap(Vector&, Vector&);
-
+	Vector& operator=(Vector);
 private:
 	double x;
 	double y;
