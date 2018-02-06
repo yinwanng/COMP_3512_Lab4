@@ -25,3 +25,8 @@ double Vector::get_X() const
 {
 	return x;
 }
+
+double Vector::get_Y() const
+{
+	return y;
+}
