@@ -85,6 +85,13 @@ Vector & Vector::operator--()
 	return *this;
 }
 
+Vector Vector::operator--(int)
+{
+	Vector tmp(*this);
+	operator--();
+	return tmp;
+}
+
 ostream & operator<<(ostream &out, const Vector &v)
 {
 	out << "x:" << v.get_X() << " y:" << v.get_Y() << " z:" << v.get_Z();

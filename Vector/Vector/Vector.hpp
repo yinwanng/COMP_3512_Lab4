@@ -20,6 +20,9 @@ public:
 	Vector& operator++();   //prefix increment
 	Vector operator++(int); //postfix increment
 	Vector& operator--();   //prefix decrement
+	Vector operator--(int); //postfix decrement
+
+
 private:
 	double x;
 	double y;
