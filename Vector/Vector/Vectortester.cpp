@@ -9,7 +9,8 @@ int main()
 	cout << "Lab 4" << endl;
 	
 	Vector a;
-	cout << ++a;
+	cout << a++;
+	cout << a;
 
 	cout << endl;
 	system("pause");

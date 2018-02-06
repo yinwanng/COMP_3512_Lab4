@@ -18,6 +18,7 @@ public:
 	void clear();
 	friend ostream & operator<<(ostream &, const Vector &);
 	Vector& operator++();   //prefix increment
+	Vector operator++(int); //postfix increment
 
 
 private:
