@@ -106,6 +106,14 @@ Vector & Vector::operator+=(const Vector &rhs)
 	return *this;
 }
 
+Vector & Vector::operator-=(const Vector &rhs)
+{
+	x = x - rhs.x;
+	y = y - rhs.y;
+	z = z - rhs.z;
+	return *this;
+}
+
 ostream & operator<<(ostream &out, const Vector &v)
 {
 	out << "x:" << v.get_X() << " y:" << v.get_Y() << " z:" << v.get_Z();
