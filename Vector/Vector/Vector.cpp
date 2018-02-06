@@ -45,3 +45,8 @@ void Vector::set_Y(double y1)
 {
 	y = y1;
 }
+
+void Vector::set_Z(double z1)
+{
+	z = z1;
+}

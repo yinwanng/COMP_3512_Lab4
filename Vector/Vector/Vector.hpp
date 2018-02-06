@@ -11,6 +11,7 @@ public:
 	double get_Z() const;
 	void set_X(double);
 	void set_Y(double);
+	void set_Z(double);
 private:
 	double x;
 	double y;
