@@ -24,6 +24,13 @@ public:
 
 	friend void swap(Vector&, Vector&);
 	Vector& operator=(Vector);
+
+	//Please overload operator+=, 
+	//operator+, 
+	//operator -=, 
+	//and operator-.
+	Vector& operator+=(const Vector&);
+
 private:
 	double x;
 	double y;

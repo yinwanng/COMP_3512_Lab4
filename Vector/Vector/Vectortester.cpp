@@ -9,19 +9,14 @@ int main()
 	cout << "Lab 4" << endl;
 	
 	Vector a;
-	cout << "a:" << a << endl;
-	a++;
-	cout << "a:" << a << endl;
 	Vector b;
-	cout << "b:" << b << endl;
-	b = a;
-	
-
-
-
-	cout << "b:" << b << endl;
-
-
+	a++;
+	b++;
+	Vector c;
+	cout << "a: " << a << endl;
+	cout << "b: " << b << endl;
+	a+=b;
+	cout << "a: " << a << endl;
 	
 
 
