@@ -40,3 +40,8 @@ void Vector::set_X(double x1)
 {
 	x = x1;
 }
+
+void Vector::set_Y(double y1)
+{
+	y = y1;
+}
