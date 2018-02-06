@@ -22,6 +22,7 @@ public:
 	Vector& operator--();   //prefix decrement
 	Vector operator--(int); //postfix decrement
 
+	friend void swap(Vector&, Vector&);
 
 private:
 	double x;

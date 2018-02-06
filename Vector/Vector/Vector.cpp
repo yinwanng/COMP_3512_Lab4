@@ -98,3 +98,11 @@ ostream & operator<<(ostream &out, const Vector &v)
 	return out;
 
 }
+
+void swap(Vector &first, Vector &second)
+{
+	using std::swap;
+	swap(first.x, second.x);
+	swap(first.y, second.y);
+	swap(first.z, second.z);
+}
