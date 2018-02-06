@@ -134,3 +134,9 @@ Vector operator+(Vector lhs, const Vector &rhs)
 	lhs += rhs;
 	return lhs;
 }
+
+Vector operator-(Vector lhs, const Vector &rhs)
+{
+	lhs -= rhs;
+	return lhs;
+}

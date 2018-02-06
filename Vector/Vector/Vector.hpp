@@ -32,6 +32,7 @@ public:
 	Vector& operator+=(const Vector&);
 	friend Vector operator+(Vector, const Vector &);
 	Vector& operator-=(const Vector &);
+	friend Vector operator-(Vector, const Vector &);
 
 private:
 	double x;
