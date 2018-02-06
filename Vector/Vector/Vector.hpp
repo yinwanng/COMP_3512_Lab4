@@ -19,8 +19,7 @@ public:
 	friend ostream & operator<<(ostream &, const Vector &);
 	Vector& operator++();   //prefix increment
 	Vector operator++(int); //postfix increment
-
-
+	Vector& operator--();   //prefix decrement
 private:
 	double x;
 	double y;

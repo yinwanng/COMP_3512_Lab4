@@ -77,6 +77,14 @@ Vector Vector::operator++(int)
 	return tmp;
 }
 
+Vector & Vector::operator--()
+{
+	x = x - 1;
+	y = y - 1;
+	z = z - 1;
+	return *this;
+}
+
 ostream & operator<<(ostream &out, const Vector &v)
 {
 	out << "x:" << v.get_X() << " y:" << v.get_Y() << " z:" << v.get_Z();
