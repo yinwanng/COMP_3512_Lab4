@@ -7,6 +7,10 @@ Vector::Vector()
 	z = 0;
 }
 
+Vector::~Vector()
+{
+}
+
 Vector::Vector(const Vector & other)
 {
 	x = other.x;
@@ -56,4 +60,12 @@ void Vector::clear()
 	x = 0;
 	y = 0;
 	z = 0;
+}
+
+ostream & operator<<(ostream &out, const Vector &v)
+{
+	// TODO: insert return statement here
+	out << "x:" << v.get_X() << " y:" << v.get_Y() << " z:" << v.get_Z();
+	return out;
+
 }

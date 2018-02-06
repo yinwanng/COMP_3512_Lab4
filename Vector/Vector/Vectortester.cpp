@@ -9,9 +9,9 @@ int main()
 	cout << "Lab 4" << endl;
 	
 	Vector a;
-	Vector b = a;
+	cout << a;
 
-
+	cout << endl;
 	system("pause");
 	return 0;
 }

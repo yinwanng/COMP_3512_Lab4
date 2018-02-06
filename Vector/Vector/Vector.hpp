@@ -1,9 +1,12 @@
 #pragma once
+#include <iostream>
+using std::ostream;
 
 class Vector
 {
 public:
 	Vector();
+	~Vector();
 	Vector(const Vector&);
 	Vector(double, double, double);
 	double get_X() const;
@@ -13,6 +16,9 @@ public:
 	void set_Y(double);
 	void set_Z(double);
 	void clear();
+	friend ostream & operator<<(ostream &, const Vector &);
+
+
 private:
 	double x;
 	double y;
