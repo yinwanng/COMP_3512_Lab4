@@ -17,6 +17,7 @@ public:
 	void set_Z(double);
 	void clear();
 	friend ostream & operator<<(ostream &, const Vector &);
+	Vector& operator++();   //prefix increment
 
 
 private:
