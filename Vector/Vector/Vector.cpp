@@ -30,3 +30,8 @@ double Vector::get_Y() const
 {
 	return y;
 }
+
+double Vector::get_Z() const
+{
+	return z;
+}
