@@ -9,6 +9,7 @@ public:
 	double get_X() const;
 	double get_Y() const;
 	double get_Z() const;
+	void set_X(double);
 private:
 	double x;
 	double y;

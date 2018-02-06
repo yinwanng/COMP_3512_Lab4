@@ -35,3 +35,8 @@ double Vector::get_Z() const
 {
 	return z;
 }
+
+void Vector::set_X(double x1)
+{
+	x = x1;
+}
