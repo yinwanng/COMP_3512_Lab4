@@ -4,6 +4,7 @@ class Vector
 {
 public:
 	Vector();
+	Vector(double, double, double);
 private:
 	double x;
 	double y;
