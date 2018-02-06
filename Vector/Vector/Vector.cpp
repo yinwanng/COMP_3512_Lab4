@@ -120,3 +120,9 @@ void swap(Vector &first, Vector &second)
 	swap(first.y, second.y);
 	swap(first.z, second.z);
 }
+
+Vector operator+(Vector lhs, const Vector &rhs)
+{
+	lhs += rhs;
+	return lhs;
+}

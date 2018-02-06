@@ -15,8 +15,8 @@ int main()
 	Vector c;
 	cout << "a: " << a << endl;
 	cout << "b: " << b << endl;
-	a+=b;
-	cout << "a: " << a << endl;
+	c = a + b;
+	cout << "c: " << c << endl;
 	
 
 
