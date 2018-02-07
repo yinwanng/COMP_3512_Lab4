@@ -20,6 +20,14 @@ int main()
 	c*(2);
 	cout << "c: " << c << endl;
 
+	cout << "operator * first technique" << endl;
+	Vector q(5, 2, 3);
+	Vector w(-8, 5, 1);
+	cout << q * w << endl;
+
+	cout << "operator * second technique" << endl;
+
+	cout << c * 2;
 
 	
 

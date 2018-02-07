@@ -148,3 +148,9 @@ Vector operator-(Vector lhs, const Vector &rhs)
 	lhs -= rhs;
 	return lhs;
 }
+
+double operator*(Vector &first, const Vector &second)
+{
+	return (first.x * second.x) + (first.y * second.y) + (first.z * second.z);
+}
+

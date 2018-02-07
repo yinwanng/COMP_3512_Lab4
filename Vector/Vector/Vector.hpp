@@ -35,7 +35,9 @@ public:
 	friend Vector operator-(Vector, const Vector &);
 
 	//
+	friend double operator*(Vector &, const Vector &);
 	Vector operator*(double);
+
 private:
 	double x;
 	double y;
