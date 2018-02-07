@@ -47,8 +47,8 @@ int main()
 	cout << endl;
 	Vector y(53, 2, 39);
 	cout << "Y is " << y << endl;
-	cout << "++y is \n" << ++y << endl;
-	cout << "y++ is \n" << y++ << endl;
+	cout << "--y is \n" << --y << endl;
+	cout << "y-- is \n" << y-- << endl;
 
 	cout << "\n(m)Demonstrating assignment operator using copy-and-swap:" << endl;
 	cout << "Z is " << z << endl;
