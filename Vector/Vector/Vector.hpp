@@ -5,6 +5,7 @@ using std::ostream;
 class Vector
 {
 public:
+	// constructor & destructor
 	Vector();
 	~Vector();
 	Vector(const Vector&);
@@ -16,25 +17,27 @@ public:
 	void set_Y(double);
 	void set_Z(double);
 	void clear();
+
+	// insertion overloaded
 	friend ostream & operator<<(ostream &, const Vector &);
+
+	// unary increment and decrement
 	Vector& operator++();   //prefix increment
 	Vector operator++(int); //postfix increment
 	Vector& operator--();   //prefix decrement
 	Vector operator--(int); //postfix decrement
 
+	// assignment and swap
 	friend void swap(Vector&, Vector&);
 	Vector& operator=(Vector);
 
-	//Please overload operator+=, 
-	//operator+, 
-	//operator -=, 
-	//and operator-.
+	// +=, +, -=, -
 	Vector& operator+=(const Vector&);
 	friend Vector operator+(Vector, const Vector &);
 	Vector& operator-=(const Vector &);
 	friend Vector operator-(Vector, const Vector &);
 
-	//
+	// *
 	friend double operator*(Vector &, const Vector &);
 	Vector operator*(double);
 
