@@ -107,6 +107,11 @@ int main()
 	cout << "q is " << q << endl;
 	cout << "q * 2 is " << q * 2 << endl;
 
+	cout << "\nBonus : " << endl;
+	cout << "q is " << q << endl;
+	cout << "q[0] is " << q[0] << endl;
+	cout << "q[1] is " << q[1] << endl;
+	cout << "q[2] is " << q[2] << endl;
 	system("pause");
 	return 0;
 }

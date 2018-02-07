@@ -183,6 +183,23 @@ Vector Vector::operator*(double v)
 	return *this;
 }
 
+double & Vector::operator[](int i)
+{
+	// TODO: insert return statement here
+	if (i == 0)
+	{
+		return x;
+	}
+	else if (i == 1)
+	{
+		return y;
+	}
+	else if (i == 2)
+	{
+		return z;
+	}
+}
+
 // Prints the Vector to std::cout or other streams
 ostream & operator<<(ostream &out, const Vector &v)
 {

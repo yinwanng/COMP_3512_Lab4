@@ -41,6 +41,9 @@ public:
 	friend double operator*(Vector &, const Vector &);
 	Vector operator*(double);
 
+	// bonus
+	double& operator[](int);
+
 private:
 	double x;
 	double y;
